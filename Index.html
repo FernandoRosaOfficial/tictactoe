@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Tic Tac Toe</h1>
+
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="vsComputer"> Play vs Computer (You are X)
+      </label>
+      <button id="restart">Restart</button>
+    </div>
+
+    <div id="status" class="status">Turn: X</div>
+
+    <div id="board" class="board" role="grid" aria-label="Tic Tac Toe board">
+      <!-- 9 cells created by JS -->
+    </div>
+
+    <div class="footer">
+      <p>Click a square to play. Computer uses a perfect Minimax AI.</p>
+    </div>
+  </main>
+
+  <script src="Script.js"></script>
+</body>
+</html>
